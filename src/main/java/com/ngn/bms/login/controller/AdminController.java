@@ -31,7 +31,7 @@ import com.ngn.bms.login.repository.UserPrivilagesRepo;
 import com.ngn.bms.login.service.AdminService;
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:4200", "http://192.168.124.242","http://103.80.111.102"})
+@CrossOrigin(origins = {"http://localhost:4200", "http://192.168.124.242","http://103.80.111.102","http://192.168.124.90"})
 public class AdminController {
 
 	@Autowired
